@@ -4,6 +4,9 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
 
+app.import('bower_components/firebase/firebase.js');
+app.import('bower_components/rxjs/dist/rx.js');
+
 // Use `app.import` to add additional libraries to the generated
 // output files.
 //

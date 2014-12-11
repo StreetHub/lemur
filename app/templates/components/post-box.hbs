@@ -1,0 +1,17 @@
+<article {{bind-attr class=":post post.type"}}>
+  <em class="type">Text</em>
+  <div class="content">
+    <h2 class="title">
+     {{{post.displayTitle}}}
+    </h2>
+    <p class="description">
+      {{{post.displayDescription}}}
+    </p>
+  </div>
+  <aside class="info">
+    <span class="author">{{post.author}}</span>
+    <span class="tag">
+      {{post.tags}}
+    </span>
+  </aside>
+</article>
