@@ -1,0 +1,57 @@
+body, .quote .title{ font-family: 'Vollkorn', Georgia, serif;}
+.title, .info{ font-family: 'Effra', Arial, sans-serif;}
+.type{ overflow: hidden; text-indent: -290486px;}
+
+html{ background: white;}
+body{ color: #808080; font-size: 14px; line-height: 1.5; overflow-y: scroll; padding: 60px 0;}
+a{ border-bottom: 1px solid #e0e0e0; color: #1a1a1a; text-decoration: none;}
+img{ max-width: 100%;}
+
+.header{ padding-bottom: 60px; text-align: center;}
+.header .title{ font-size: 32px;}
+.subtitle{ font-size: 20px;}
+
+.posts{ margin: 0 auto; padding: 0 10px 0 50px; position: relative;}
+.post{ background: white; border-radius: 2px; box-shadow: 0 0 0 1px #fce473; margin-bottom: 20px; max-width: 400px; position: relative;}
+.type{ background: #fce473 url(../img/type.png) no-repeat 0 0; border-radius: 3px 0 0 3px; height: 40px; left: -40px; position: absolute; top: 8px; width: 40px;}
+.content{ padding: 13px 15px;}
+.title{ color: #1a1a1a; font-size: 24px; font-weight: bold; letter-spacing: 0.1em; line-height: 1.25; text-transform: uppercase;}
+.title a{ color: #1a1a1a;}
+.image{ border-radius: 3px 3px 0 0; display: block; height: auto; width: 100%;}
+.description{ margin-top: 10px;}
+.info{ background: #f2f2f2; border-radius: 0 0 2px 2px; color: #b3b3b3; font-size: 9px; letter-spacing: 0.1em; padding: 6px; position: relative; text-transform: uppercase;}
+  .info:hover{ color: #1a1a1a;}
+.author{ float: right;}
+
+.link{ box-shadow: 0 0 0 1px #42afe3;}
+.link .type{ background-color: #42afe3; background-position: 0 -120px;}
+  .link .title a:hover{ border-bottom-color: #42afe3;}
+
+.picture{ box-shadow: 0 0 0 1px #847bb9; padding-bottom: 0;}
+.picture .type{ background-color: #847bb9; background-position: 0 -40px;}
+.picture .content{ padding: 15px;}
+.picture .description{ margin-top: 0;}
+  .picture .description a:hover{ border-bottom-color: #847bb9;}
+
+.quote .content{ padding-top: 17px;}
+.quote .title{ font-style: italic; font-weight: normal; letter-spacing: 0; text-transform: none;}
+
+.text{ box-shadow: 0 0 0 1px #97cd76;}
+.text .type{ background-color: #97cd76; background-position: 0 -80px;}
+
+.video{ box-shadow: 0 0 0 1px #ed6c63;}
+.video .type{ background-color: #ed6c63; background-position: 0 -160px;}
+.video .description{ margin-top: 0;}
+  .video .description a:hover{ border-bottom-color: #ed6c63;}
+
+@media only screen and (min-width: 460px) {
+  .posts{ width: 460px;}
+  .post{ width: 400px;}
+}
+
+@media only screen and (min-width: 960px) {
+  .post{ opacity: 0;}
+  .loading.posts:after{ background: white url(../img/loading.gif) no-repeat center top; content: ''; box-shadow: 0 0 0 1px white; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%;}
+  .wall.posts{ width: 960px;}
+  .wall.posts .post{ opacity: 1;}
+}

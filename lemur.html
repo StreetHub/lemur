@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,39 +6,250 @@
     <title>Lemur</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lemur.css">
   </head>
   <body>
-    <article class="post text">
-      <em class="type">Text</em>
-      <h2 class="title">
-        Lemur
-      </h2>
-      <p class="content">
-        During the day, lemurs are very independent creatures, going about their day on their own. However, at night, they often sleep in groups. They like to clump together. Talk about a cuddle sesh!
-      </p>
-    </article>
-    <article class="post quote">
-      <em class="type">Quote</em>
-      <h2 class="title">
-        &#8220;I wish we had a tech blog&#8221;
-      </h2>
-      <p class="content">
-        @arnaudbenard
-      </p>
-    </article>
-    <article class="post link">
-      <em class="type">Link</em>
-      <h2 class="title">
-        <a href="https://github.com/StreetHub/elasto">Simple library to query Elasticsearch</a>
-      </h2>
-      <p class="content">
-        github.com/StreetHub/elasto
-      </p>
-    </article>
-    <article class="post picture">
-      <em class="type">Image</em>
-      <img class="image" src="http://placehold.it/300x300" alt="You're getting shit for Christmas">
-    </article>
+    <header class="header">
+      <h1 class="title">Lemur</h1>
+      <h2 class="subtitle">A wall of zzZzzz...</h2>
+    </header>
+    <div class="posts">
+      <article class="post text">
+        <em class="type">Text</em>
+        <div class="content">
+          <h2 class="title">
+            Lemur
+          </h2>
+          <p class="description">
+            During the day, lemurs are very independent creatures, going about their day on their own. However, at night, they often sleep in groups. They like to clump together. Talk about a cuddle sesh!
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@alex</span>
+          <span class="tag">#wtf</span>
+        </aside>
+      </article>
+      <article class="post quote">
+        <em class="type">Quote</em>
+        <div class="content">
+          <h2 class="title">
+            &#8220;I wish we had a tech blog&#8221;
+          </h2>
+        </div>
+        <aside class="info">
+          <span class="author">@abenard</span>
+          <span class="tag">#wtf</span>
+        </aside>
+      </article>
+      <article class="post link">
+        <em class="type">Link</em>
+        <div class="content">
+          <h2 class="title">
+            <a href="https://github.com/StreetHub/elasto">Simple library to query Elasticsearch</a>
+          </h2>
+          <p class="description">
+            github.com/StreetHub/elasto
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@jgthms</span>
+          <span class="tag">#sweetjesus</span>
+        </aside>
+      </article>
+      <article class="post picture">
+        <em class="type">Picture</em>
+        <a href="#">
+          <img class="image" height="300" src="img/300x200.gif" alt="You're getting shit for Christmas">
+        </a>
+        <div class="content">
+          <p class="description">
+            <a href="#">No shit</a>
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@peter</span>
+          <span class="tag">#yo</span>
+        </aside>
+      </article>
+      <article class="post video">
+        <em class="type">Video</em>
+        <img class="image" height="300" src="img/300x200.gif" alt="You're getting shit for Christmas">
+        <div class="content">
+          <p class="description">
+            <a href="#">No shit</a>
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@abenard</span>
+          <span class="tag">#okay</span>
+        </aside>
+      </article>
+      <article class="post text">
+        <em class="type">Text</em>
+        <div class="content">
+          <h2 class="title">
+            Lemur
+          </h2>
+        </div>
+        <aside class="info">
+          <span class="author">@abenard</span>
+          <span class="tag">#okay</span>
+        </aside>
+      </article>
+      <article class="post text">
+        <em class="type">Text</em>
+        <div class="content">
+          <h2 class="title">
+            Lemur
+          </h2>
+          <p class="description">
+            During the day, lemurs are very independent creatures, going about their day on their own. However, at night, they often sleep in groups. They like to clump together. Talk about a cuddle sesh!
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@alex</span>
+          <span class="tag">#wtf</span>
+        </aside>
+      </article>
+      <article class="post quote">
+        <em class="type">Quote</em>
+        <div class="content">
+          <h2 class="title">
+            &#8220;I wish we had a tech blog&#8221;
+          </h2>
+        </div>
+        <aside class="info">
+          <span class="author">@abenard</span>
+          <span class="tag">#wtf</span>
+        </aside>
+      </article>
+      <article class="post link">
+        <em class="type">Link</em>
+        <div class="content">
+          <h2 class="title">
+            <a href="https://github.com/StreetHub/elasto">Simple library to query Elasticsearch</a>
+          </h2>
+          <p class="description">
+            github.com/StreetHub/elasto
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@jgthms</span>
+          <span class="tag">#sweetjesus</span>
+        </aside>
+      </article>
+      <article class="post picture">
+        <em class="type">Picture</em>
+        <a href="#">
+          <img class="image" height="300" src="img/300x200.gif" alt="You're getting shit for Christmas">
+        </a>
+        <div class="content">
+          <p class="description">
+            <a href="#">No shit</a>
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@peter</span>
+          <span class="tag">#yo</span>
+        </aside>
+      </article>
+      <article class="post video">
+        <em class="type">Video</em>
+        <img class="image" height="300" src="img/300x200.gif" alt="You're getting shit for Christmas">
+        <div class="content">
+          <p class="description">
+            <a href="#">No shit</a>
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@abenard</span>
+          <span class="tag">#okay</span>
+        </aside>
+      </article>
+      <article class="post text">
+        <em class="type">Text</em>
+        <div class="content">
+          <h2 class="title">
+            Lemur
+          </h2>
+        </div>
+        <aside class="info">
+          <span class="author">@abenard</span>
+          <span class="tag">#okay</span>
+        </aside>
+      </article>
+      <article class="post text">
+        <em class="type">Text</em>
+        <div class="content">
+          <h2 class="title">
+            Lemur
+          </h2>
+          <p class="description">
+            During the day, lemurs are very independent creatures, going about their day on their own. However, at night, they often sleep in groups. They like to clump together. Talk about a cuddle sesh!
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@alex</span>
+          <span class="tag">#wtf</span>
+        </aside>
+      </article>
+      <article class="post quote">
+        <em class="type">Quote</em>
+        <div class="content">
+          <h2 class="title">
+            &#8220;I wish we had a tech blog&#8221;
+          </h2>
+        </div>
+        <aside class="info">
+          <span class="author">@abenard</span>
+          <span class="tag">#wtf</span>
+        </aside>
+      </article>
+      <article class="post link">
+        <em class="type">Link</em>
+        <div class="content">
+          <h2 class="title">
+            <a href="https://github.com/StreetHub/elasto">Simple library to query Elasticsearch</a>
+          </h2>
+          <p class="description">
+            github.com/StreetHub/elasto
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@jgthms</span>
+          <span class="tag">#sweetjesus</span>
+        </aside>
+      </article>
+      <article class="post picture">
+        <em class="type">Picture</em>
+        <a href="#">
+          <img class="image" height="300" src="img/300x200.gif" alt="You're getting shit for Christmas">
+        </a>
+        <div class="content">
+          <p class="description">
+            <a href="#">No shit</a>
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@peter</span>
+          <span class="tag">#yo</span>
+        </aside>
+      </article>
+      <article class="post video">
+        <em class="type">Video</em>
+        <img class="image" height="300" src="img/300x200.gif" alt="You're getting shit for Christmas">
+        <div class="content">
+          <p class="description">
+            <a href="#">No shit</a>
+          </p>
+        </div>
+        <aside class="info">
+          <span class="author">@abenard</span>
+          <span class="tag">#okay</span>
+        </aside>
+      </article>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/lemur.js"></script>
   </body>
 </html>
