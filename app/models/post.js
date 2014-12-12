@@ -34,7 +34,7 @@ export default DS.Model.extend({
         }
 
         if (this.get('isVideo')) {
-            return ["<iframe width='560' height='315' src='//www.youtube.com/embed/", this.get('link'), "' frameborder='0' allowfullscreen></iframe>"].join('');
+            return ["<iframe width='370' height='300' src='//www.youtube.com/embed/", this.get('link'), "' frameborder='0' allowfullscreen></iframe>"].join('');
         }
         //www.youtube.com/embed/6HeGQvjYbfY
     }.property('title'),
